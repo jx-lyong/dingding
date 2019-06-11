@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="jiantouxiangyou" unicode="&#58893;" d="M685.626 384.008a27.212 27.212 0 0 1-8.002 19.382l-292.6 292.612c-10.672 10.666-27.976 10.666-38.648 0-10.666-10.672-10.666-27.976 0-38.648l273.35-273.35-273.35-273.34c-10.672-10.672-10.672-27.986 0-38.658 10.672-10.674 27.976-10.674 38.65 0l292.604 292.612a27.234 27.234 0 0 1 7.996 19.39z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="jiantouxiangxia" unicode="&#58892;" d="M555.52 227.84l245.76 248.32-35.84 35.84-245.76-248.32-248.32 245.76-35.84-35.84 284.16-279.04 35.84 33.28z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

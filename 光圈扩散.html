@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*
+		{
+			padding:0;
+			margin:0;
+		}
+		body
+		{
+			overflow: hidden;
+			/*关于animate、滚动条等问题
+1.如何让animate动画移动后不回到原点？
+答：可以如 animation:mymove 5s forwards; 添加forwards
+2.如何让动画向下滚动出屏幕，而屏幕不出现滚动条？
+答： 在body属性里设置overflow-y:hidden;
+        左右用overflow-x:hidden。
+3.两个animate动画绑定同个标签会怎样？
+答： 来回滚动*/
+		}
+		.box
+		{
+			width: 600px;
+			height: 400px;
+			position: absolute;
+			left: 500px;
+			top: 300px;
+			transform: translate(-50%,-50%) rotateX(50deg);
+			background: url(images/dd.png) no-repeat center 160px;
+		}
+		.box1
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url(images/yuan.png) 50% 50% no-repeat;
+			background-size: 35% 35%;
+			opacity:0;
+			animation: circlea 4.5s ease-out forwards  infinite;
+		}
+		.box2
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url(images/yuan.png) 50% 50% no-repeat;
+			background-size: 35% 35%;
+			opacity:0;
+			animation: circlea 4.5s ease-out 1.5s forwards infinite;
+		}
+		.box3
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url(images/yuan.png) 50% 50% no-repeat;
+			background-size: 35% 35%;
+			opacity:0;
+			animation: circlea 4.5s ease-out 3s forwards infinite;
+		}
+		@keyframes circlea{
+			0%{
+				transform: scale(.8);
+				opacity:0;
+			}
+			10%{
+
+				opacity:.7;
+			}
+			100%{
+				transform: scale(5.5);
+				opacity:0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+	</div>
+</body>
+</html>
